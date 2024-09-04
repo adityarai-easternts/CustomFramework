@@ -11,6 +11,7 @@
 		880FDC292C88661E0038B8FF /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880FDC1E2C88661E0038B8FF /* CustomFramework.framework */; };
 		880FDC2E2C88661E0038B8FF /* CustomFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880FDC2D2C88661E0038B8FF /* CustomFrameworkTests.swift */; };
 		880FDC2F2C88661E0038B8FF /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 880FDC212C88661E0038B8FF /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		880FDC392C88664A0038B8FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880FDC382C88664A0038B8FF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		880FDC222C88661E0038B8FF /* CustomFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CustomFramework.docc; sourceTree = "<group>"; };
 		880FDC282C88661E0038B8FF /* CustomFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880FDC2D2C88661E0038B8FF /* CustomFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFrameworkTests.swift; sourceTree = "<group>"; };
+		880FDC382C88664A0038B8FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				880FDC212C88661E0038B8FF /* CustomFramework.h */,
 				880FDC222C88661E0038B8FF /* CustomFramework.docc */,
+				880FDC382C88664A0038B8FF /* ViewController.swift */,
 			);
 			path = CustomFramework;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880FDC392C88664A0038B8FF /* ViewController.swift in Sources */,
 				880FDC232C88661E0038B8FF /* CustomFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 		880FDC362C88661E0038B8FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X45UVM4CFQ;
@@ -423,6 +428,7 @@
 		880FDC372C88661E0038B8FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X45UVM4CFQ;
